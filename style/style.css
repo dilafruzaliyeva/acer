@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(../img/bgc.png) center/cover;
+    height: 950px;
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 43px 150px;
+}
+
+.header_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_list a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.header_item{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.fa-search{
+    color: white;
+    font-size: 18px;
+    padding-right: 16px;
+}
+
+.header_item ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_item ul a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.fa-user{
+    color: white;
+    font-size: 18px;
+    padding-left: 4px;
+}
+
+.fa-heart{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+header h1{
+    color: white;
+    font-size: 36px;
+    margin-top: 450px;
+    text-align: center;
+}
+
+.btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #FFFFFF;
+    padding: 15px 35px;
+    line-height: 150px;
+    margin-left: 640px;
+}
+
+.gorizont{
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.header_down{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 200px;
+}
+
+.menu{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.menu p{
+    font-size: 21px;
+}
+
+.menu h1{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.menu_item{
+    padding: 60px 190px ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu_item a{
+    padding-top: 20px;
+    display: block; 
+    width: 165px; 
+    height: 61px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid #D6D6D6;
+}
+
+.menu_item a:hover{
+    color: white;
+    background: black;
+}
+
+.grid{
+    max-width: 1110px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.post-1::before{
+    color: white;
+    font-size: 24px;
+    margin: 222px 140px 0px;
+    content:"КОЛЬЦА" ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.post-2::before{
+    color: white;
+    font-size: 24px;
+    margin: 222px 140px 0px;
+    content:"СЕРЬГИ" ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.post-3::before{
+    color: white;
+    font-size: 24px;
+    margin: 222px 120px 0px;
+    content:"ПОДВЕСКИ" ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.post-4::before{
+    color: white;
+    font-size: 24px;
+    margin: 222px 130px 0px;
+    content:"ЗАПОНКИ" ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.post-5::before{
+    color: white;
+    font-size: 24px;
+    margin: 222px 130px 0px;
+    content:"БРАСЛЕТЫ" ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.post-6::before{
+    color: white;
+    font-size: 24px;
+    margin: 222px 150px 0px;
+    content:"ЧАСЫ" ;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.main_title{
+    max-width: 100%;
+    height: 501px;
+    background:url(../img/fon.png) center/cover;
+    margin-top: 100px;
+    text-align: center;
+    color:white;
+}
+
+.title_a{
+    font-size: 21px;
+    padding-top: 100px;
+}
+
+.main_title h2{
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.title_b{
+    width: 730px;
+    height: 100px;
+    font-size: 18px;
+    margin: 45px auto;
+}
+
+.title_btn{
+    color:#333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 224px;
+    height: 51px;
+    background: white;
+    padding: 15px;
+    margin-left: 650px;
+}
+
+.main_item{
+    color:black;
+    text-align:center ;
+    margin-top: 120px;
+}
+
+.main_item p{
+    font-size: 21px;
+}
+
+.main_item h5{
+    font-size: 30px;
+    margin-top:15px;
+}
+
+.grid_item{
+    max-width: 1110px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.post_a::before{
+    width: 154px;
+    height: 87px;
+    color: white;
+    font-size: 21px;
+    margin: 248px 98px;
+    content:"Как выбрать часы для своей будущей жены" ;
+    position: absolute;
+    z-index: 1;
+}
+
+.post_b::before{
+    width: 204px;
+    height: 87px;
+    color: white;
+    font-size: 21px;
+    margin: 248px 73px;
+    content:"Запонки для мужа: 7 ключевых правил покупки аксессуара" ;
+    position: absolute;
+    z-index: 1;
+}
+
+.post_c::before{
+    width: 206px;
+    height: 87px;
+    color: white;
+    font-size: 21px;
+    margin: 248px 72px;
+    content:"Как выбрать обручальные кольца молодоженам" ;
+    position: absolute;
+    z-index: 1;
+}
+
+.item_btn{
+    display: block;
+    width: 255px;
+    height: 51px;
+    background: #333333;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    padding-top: 15px;
+    text-transform: uppercase;
+    margin-left: 635px;
+}
+
+.main-photo{
+    margin-top: 120px;
+    text-align: center;
+    color: #333333;
+}
+
+.main-photo p{
+    font-size: 21px;
+}
+
+.main-photo h2{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.grid_photo{
+    max-width: 1100px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr) ;
+    grid-template-rows: repeat(2, 1fr) ;
+}
+
+.img-1{
+    grid-column:1 / span 2;
+    grid-row: 1;
+}
+
+.img-2{
+     grid-column: 3;
+     grid-row: 1;
+}
+
+.img-3{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.img-4{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.img-5{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.img-6{
+    grid-column: 3/ span 4 ;
+    grid-row: 2;
+}
+
+.footer_item{
+    max-width: 100%;
+    height: 478px;
+    background:url(../img/fon.png) center/cover;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.footer_item p{
+    font-size: 21px;
+    padding-top: 100px;
+}
+
+.footer_item h3{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.footer_about{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 63px 210px ;
+}
+
+.footer_ul{
+    list-style: none;
+    text-align: start;
+}
+
+.footer_ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px; 
+    display: block;
+    width: 208px;
+    height: 35px;
+}
+
+.footer_up{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon i{
+    padding: 0px 20px 7px;
+    transform: rotateZ(270deg);
+}
+
+.footer_btn{
+    border: 1px solid #FFFFFF;
+    width: 448px;
+    height: 113px;
+}
+
+.btn_a{
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    margin: 14px 15px;
+    padding: 20px 22px;
+    width: 418px;
+    height: 85px;
+}
+
+input{
+    width: 200px;
+    height: 45px;
+    border: 1px solid #D6D6D6;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.footer_btn a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #FFFFFF;
+    display: block;
+    width: 159px;
+    height: 45px;
+    background: #333333;
+    padding-top: 14.5px;
+    margin-left: 15px;
+}
+
+.grid_container{
+    max-width: 1100px;
+    margin: 80px auto;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.grid_a h4{
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.grid_a hr{
+    border: 1px solid #333333;
+    width: 255px;
+    margin-bottom: 30px;
+}
+
+.grid_a ul{
+    list-style: none;
+}
+
+.grid_a ul a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    display: block;
+    width: 207px;
+    height: 30px;
+}
+
+.grid_img{
+    display: flex;
+    justify-content: start;
+}
+
+.grid_img img{
+    width: 45px;
+    height: 30px;
+    margin: 21px 20px 0px 0px;
+}
+
+.grid_phone{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.grid_icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid_icon i{
+    font-size: 16px;
+    padding-bottom: 19px;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+}
+
+.number p{
+    font-size: 14px;
+    padding: 0px 0px 17px 20px;
+    color: #333333;
+}
+
+.icon_sayt i{
+    font-size: 16px;
+    padding: 27px 21px 0px 0px;
+}
+
+.hr_a{
+    width: 1100px;
+    border: 1px solid #333333;
+    margin: 60px auto 20px;
+}
+
+.footer_down{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.footer_down p{
+    font-size: 14px;
+    color: #333333;
+}
+
+.info p{
+    font-weight: 600;
+}
+
+.info hr{
+    border: 0.5px solid #333333;
+}
